@@ -5,7 +5,7 @@ def main():
   st.title("Sentiment Analysis")
   img=Image.open("sentiment-analysis_1.jpg")
   st.image(img)
-  st.write("sentiment analysis")
+  st.write("sentiment analysis") 
   text=st.text_input("Enter a sentence--")
   if st.button("Analysis"):
     br=TextBlob(text)
@@ -18,4 +18,4 @@ def main():
       st.success("This is a Negative Message")
    
 if __name__=="__main__":
-  main()
+  main() 
